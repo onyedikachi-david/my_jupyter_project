@@ -1,0 +1,10 @@
+{
+  "name": "Jupyter Notebook in Daytona",
+  "image": "jupyter/datascience-notebook",
+  "forwardPorts": [8888],
+  "postCreateCommand": "pip install --user -r requirements.txt",
+  "extensions": ["ms-python.python", "ms-toolsai.jupyter"],
+  "settings": {
+    "python.defaultInterpreterPath": "/opt/conda/bin/python"
+  }
+}
